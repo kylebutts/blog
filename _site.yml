@@ -1,0 +1,10 @@
+name: "blog"
+title: "Kyle Butts' Simulation Station"
+description: |
+  Metrics Posts Galore
+output_dir: "docs"
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+output: distill::distill_article
