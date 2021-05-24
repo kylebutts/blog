@@ -3,6 +3,7 @@ title: "Kyle Butts' Simulation Station"
 description: |
   Metrics Posts Galore
 output_dir: "docs"
+base_url: https://www.kylebutts.com/blog/
 navbar:
   right:
     - text: "Home"

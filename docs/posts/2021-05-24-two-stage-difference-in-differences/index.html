@@ -89,6 +89,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 <meta property="description" itemprop="description" content="Introducing a R package to implement two-stage difference-in-differences following Gardner (2021)"/>
 
+<link rel="canonical" href="https://www.kylebutts.com/blog/posts/2021-05-24-two-stage-difference-in-differences/"/>
 
 <!--  https://schema.org/Article -->
 <meta property="article:published" itemprop="datePublished" content="2021-05-24"/>
@@ -99,14 +100,29 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <meta property="og:title" content="Kyle Butts&#39; Simulation Station: Two-Stage Difference-in-Differences"/>
 <meta property="og:type" content="article"/>
 <meta property="og:description" content="Introducing a R package to implement two-stage difference-in-differences following Gardner (2021)"/>
+<meta property="og:url" content="https://www.kylebutts.com/blog/posts/2021-05-24-two-stage-difference-in-differences/"/>
+<meta property="og:image" content="https://www.kylebutts.com/blog/posts/2021-05-24-two-stage-difference-in-differences/two-stage-difference-in-differences_files/figure-html5/plot-df-het-1.png"/>
+<meta property="og:image:width" content="1536"/>
+<meta property="og:image:height" content="768"/>
 <meta property="og:locale" content="en_US"/>
 <meta property="og:site_name" content="Kyle Butts&#39; Simulation Station"/>
 
 <!--  https://dev.twitter.com/cards/types/summary -->
-<meta property="twitter:card" content="summary"/>
+<meta property="twitter:card" content="summary_large_image"/>
 <meta property="twitter:title" content="Kyle Butts&#39; Simulation Station: Two-Stage Difference-in-Differences"/>
 <meta property="twitter:description" content="Introducing a R package to implement two-stage difference-in-differences following Gardner (2021)"/>
+<meta property="twitter:url" content="https://www.kylebutts.com/blog/posts/2021-05-24-two-stage-difference-in-differences/"/>
+<meta property="twitter:image" content="https://www.kylebutts.com/blog/posts/2021-05-24-two-stage-difference-in-differences/two-stage-difference-in-differences_files/figure-html5/plot-df-het-1.png"/>
+<meta property="twitter:image:width" content="1536"/>
+<meta property="twitter:image:height" content="768"/>
 
+<!--  https://scholar.google.com/intl/en/scholar/inclusion.html#indexing -->
+<meta name="citation_title" content="Kyle Butts&#39; Simulation Station: Two-Stage Difference-in-Differences"/>
+<meta name="citation_fulltext_html_url" content="https://www.kylebutts.com/blog/posts/2021-05-24-two-stage-difference-in-differences/"/>
+<meta name="citation_online_date" content="2021/05/24"/>
+<meta name="citation_publication_date" content="2021/05/24"/>
+<meta name="citation_author" content="Kyle Butts"/>
+<meta name="citation_author_institution" content="CU Boulder Economics"/>
 <!--/radix_placeholder_meta_tags-->
   
   <meta name="citation_reference" content="citation_title=Revisiting event study designs: Robust and efficient estimation;citation_publication_date=2021;citation_author=Kirill Borusyak;citation_author=Xavier Jaravel;citation_author=Jann Spiess"/>
@@ -114,7 +130,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <!--radix_placeholder_rmarkdown_metadata-->
 
 <script type="text/json" id="radix-rmarkdown-metadata">
-{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output","bibliography"]}},"value":[{"type":"character","attributes":{},"value":["Two-Stage Difference-in-Differences"]},{"type":"character","attributes":{},"value":["Introducing a R package to implement two-stage difference-in-differences following Gardner (2021)"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url","affiliation","affiliation_url"]}},"value":[{"type":"character","attributes":{},"value":["Kyle Butts"]},{"type":"character","attributes":{},"value":["https://www.kylebutts.com/"]},{"type":"character","attributes":{},"value":["CU Boulder Economics"]},{"type":"character","attributes":{},"value":["https://www.colorado.edu/economics/"]}]}]},{"type":"character","attributes":{},"value":["05-24-2021"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]},{"type":"character","attributes":{},"value":["references.bib"]}]}
+{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output","bibliography","citation_url","canonical_url"]}},"value":[{"type":"character","attributes":{},"value":["Two-Stage Difference-in-Differences"]},{"type":"character","attributes":{},"value":["Introducing a R package to implement two-stage difference-in-differences following Gardner (2021)"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url","affiliation","affiliation_url"]}},"value":[{"type":"character","attributes":{},"value":["Kyle Butts"]},{"type":"character","attributes":{},"value":["https://www.kylebutts.com/"]},{"type":"character","attributes":{},"value":["CU Boulder Economics"]},{"type":"character","attributes":{},"value":["https://www.colorado.edu/economics/"]}]}]},{"type":"character","attributes":{},"value":["05-24-2021"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]},{"type":"character","attributes":{},"value":["references.bib"]},{"type":"character","attributes":{},"value":["https://www.kylebutts.com/blog/posts/2021-05-24-two-stage-difference-in-differences/"]},{"type":"character","attributes":{},"value":["https://www.kylebutts.com/blog/posts/2021-05-24-two-stage-difference-in-differences/"]}]}
 </script>
 <!--/radix_placeholder_rmarkdown_metadata-->
   
@@ -2416,6 +2432,16 @@ Figure 2: Event-study plot with example data
 <div class="appendix-bottom">
   <h3 id="references">References</h3>
   <div id="references-listing"></div>
+  <h3 id="citation">Citation</h3>
+  <p>For attribution, please cite this work as</p>
+  <pre class="citation-appendix short">Butts (2021, May 24). Kyle Butts' Simulation Station: Two-Stage Difference-in-Differences. Retrieved from https://www.kylebutts.com/blog/posts/2021-05-24-two-stage-difference-in-differences/</pre>
+  <p>BibTeX citation</p>
+  <pre class="citation-appendix long">@misc{butts2021two-stage,
+  author = {Butts, Kyle},
+  title = {Kyle Butts' Simulation Station: Two-Stage Difference-in-Differences},
+  url = {https://www.kylebutts.com/blog/posts/2021-05-24-two-stage-difference-in-differences/},
+  year = {2021}
+}</pre>
 </div>
 <!--/radix_placeholder_appendices-->
 <!--radix_placeholder_navigation_after_body-->
