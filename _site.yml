@@ -1,7 +1,6 @@
 name: "blog"
-title: "Kyle Butts' Simulation Station"
+title: "Kyle Butts' Metrics Posts Galore"
 description: |
-  Metrics Posts Galore
 output_dir: "docs"
 base_url: https://www.kylebutts.com/blog/
 navbar:
